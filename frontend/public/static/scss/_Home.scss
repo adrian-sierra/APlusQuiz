@@ -1,0 +1,13 @@
+@import "quickSelect";
+@import "tableOfContents";
+
+body {
+  margin-top: 1rem;
+}
+.home-title {
+  text-align: center;
+}
+.home-container {
+  display: grid;
+  gap: 1.5rem;
+}

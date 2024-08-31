@@ -1,0 +1,34 @@
+.table-of-contents-part {
+  font-weight: bold;
+
+  .part-list {
+    padding-left: 0;
+  }
+  .table-of-contents-list {
+    list-style: none;
+
+    a {
+      text-decoration: none;
+
+      &:hover {
+        color: black;
+      }
+    }
+    .table-of-contents-title {
+      display: flex;
+      gap: 0.25rem;
+    }
+    .chapter-title {
+      font-size: 0.825rem;
+    }
+    .section-title {
+      font-size: 0.675rem;
+    }
+    .subsection-title {
+      font-size: 0.5rem;
+    }
+  }
+  .object-type {
+    text-transform: capitalize;
+  }
+}

@@ -1,0 +1,19 @@
+.quick-select-container {
+  display: grid;
+  gap: 0.5rem;
+  .quick-select-title {
+    font-size: 1.25rem;
+  }
+  .quick-select-search-bar {
+    width: 300px;
+  }
+  .quick-select-list {
+    list-style: none;
+    padding-left: 0;
+
+    .quick-select-list-container {
+      display: flex;
+      gap: 0.5rem;
+    }
+  }
+}
